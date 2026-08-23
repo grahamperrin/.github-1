@@ -63,7 +63,7 @@ It is a Mentor, not a tribute. It advises. You die alone.
 
 ## Impress the Daemon
 
-[`gamemakerd`](GAMES.md#the-gamemakers) has indexed the drivers, most of the datasheets, and most of the assumptions ever posted in a forum. It has read more errata than you ever will.
+[`gamemakerd`](GAMEMAKERD.md) has indexed the drivers, most of the datasheets, and most of the assumptions ever posted in a forum. It has read more errata than you ever will.
 
 Its goal is to reject your code. Your goal is to impress it. The [perfect score](GAMES.md#scoring) is zero generated comments: a PR so clean the daemon finds nothing to say. Complaining about being reviewed by an AI, in a project where AI usage is a MUST, scores zero points and less sympathy.
 

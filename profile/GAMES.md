@@ -6,6 +6,7 @@ May the odds be ever in your favor. They won't be. It's hardware bring-up.
 
 **Contents**
 
+- [Why "Tribute"](#why-tribute)
 - [Districts](#districts)
 - [The Arena](#the-arena)
 - [The World](#the-world)
@@ -20,6 +21,16 @@ May the odds be ever in your favor. They won't be. It's hardware bring-up.
 - [The Victory Tour](#the-victory-tour)
 - [The Gamemakers](#the-gamemakers)
 - [The Pressure Valve](#the-pressure-valve)
+
+## Why "Tribute"
+
+The word was already hiding inside "contributor". Latin `tribuere`, to give. A *con-tributor* is one who gives together. Strip the prefix and what remains is a *tribute*: one who gives alone.
+
+That is what solo bring-up made of people. FreeBSD never lacked givers; it had tributes, paying alone into [a graveyard](ORIGIN.md#the-graveyard). The Games just say the word out loud. You enter the arena a tribute, and the arena gives you back the prefix: allies, Mentors, rivals verifying your logs. [The Victory Tour](#the-victory-tour) is the moment the *con* is restored: many names, one patchset, given together.
+
+A tribute **volunteers**. Nobody is reaped against their will here. You volunteer your time to test, to think about the code, to read the datasheet, to understand cross-code pollution, to make sure a change is not calling a deprecated API, not taking a giant lock, not quietly breaking someone else's board. That is the tribute you pay, and the silicon collects it in months of your life. The finished board is the second payment: tribute rendered upstream to FreeBSD.
+
+What a tribute is not: a fame vehicle. Using AI to farm fame is the fastest way to become unfamous. [`gamemakerd`](GAMEMAKERD.md) will ban you without any drama, and the graph will remember.
 
 ## Districts
 
@@ -123,7 +134,7 @@ The Victory Tour is the upstream submission itself. A season is not won until Fr
 
 ## The Gamemakers
 
-Scoring is automated. `gamemakerd`, the Gamemakers' daemon, reviews every PR and comments on what it finds. A GitHub Action parses merged PRs and `gamemakerd` comment counts, then regenerates `SCOREBOARD.md`. No manual bookkeeping. Disputes are settled by the boot log or not at all.
+Scoring is automated. [`gamemakerd`](GAMEMAKERD.md), the Gamemakers' daemon, reviews every PR and comments on what it finds. A GitHub Action parses merged PRs and `gamemakerd` comment counts, then regenerates `SCOREBOARD.md`. No manual bookkeeping. Disputes are settled by the boot log or not at all.
 
 ## The Pressure Valve
 

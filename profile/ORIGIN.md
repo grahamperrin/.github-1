@@ -18,7 +18,7 @@ Why fork FreeBSD? Because of a board that both exists and does not.
 
 That board lives in a quantum superposition. It exists in his repo. It does not exist in the tree. It is simultaneously supported and unsupported, and it will stay that way for as long as one person carries it by himself. Nobody observes the work, so the wave function never collapses.
 
-SoCBSD collapses it. Martinfx becomes a [tribute](GAMES.md#the-reaping). What works gets merged into [`gamemaster`](GAMES.md#the-world) now, not after the board is perfect. Other tributes who own the board add what he doesn't need: one brings USB, one brings the display, one writes the man pages. The board stops being one person's ten-month solo run and becomes an [arena](GAMES.md#the-arena).
+SoCBSD collapses it. Martinfx becomes a [tribute](GAMES.md#why-tribute). What works gets merged into [`gamemaster`](GAMES.md#the-world) now, not after the board is perfect. Other tributes who own the board add what he doesn't need: one brings USB, one brings the display, one writes the man pages. The board stops being one person's ten-month solo run and becomes an [arena](GAMES.md#the-arena).
 
 And when it is done, it goes [upstream on a silver platter](GAMES.md#the-victory-tour): full support, tested by many tributes, with [real names](README.md#the-decree) attached to every claim.
 
