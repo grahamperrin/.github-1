@@ -41,4 +41,4 @@ Bring-up runs as seasonal games. Boards are [arenas](GAMES.md#the-arena), contri
 
 ## Contact
 
-Everything happens on GitHub: issues, discussions, and PRs on the org repositories. A Forgejo mirror may come later. There is no Discord, no IRC, no website.
+The work happens on GitHub: issues, discussions, and PRs on the org repositories. A Forgejo mirror may come later.
