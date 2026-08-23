@@ -34,7 +34,7 @@ Each board is an arena, opened as an issue in the org. The arena issue's opening
 The world is the branch topology, and the branch topology is law.
 
 - **`gamemaster`** is the default branch: FreeBSD plus every board that survived the gate. It is what a visitor clones and what boots everything.
-- **Arena branches** (`arena/<board>`) cut from `gamemaster`, one per board. Inside an arena, fast merges rule: tribute PRs land quickly, chaos is permitted, the [Copilot score](#scoring) still counts.
+- **Arena branches** (`arena/<board>`) cut from `gamemaster`, one per board. Inside an arena, fast merges rule: tribute PRs land quickly, chaos is permitted, the [`gamemakerd` score](#scoring) still counts.
 - **Upstream syncs**: `freebsd/main` merges into `gamemaster` monthly, or on demand when a tribute shows that FreeBSD landed something they need. An on-demand request must point at the actual upstream commit. Syncs are not a weapon for forcing rebase pain on rival arenas.
 - After a sync, arenas rebase onto the new `gamemaster`. An arena that ignores two consecutive syncs is drifting toward unmergeable and toward starvation.
 
@@ -75,7 +75,7 @@ Points are awarded per survival tier. Every claim requires a serial boot log att
 
 **Difficulty multiplier**: a board on an SoC family with zero existing FreeBSD support scores double.
 
-**Clean kill**: Copilot generates zero comments on the PR, bonus points. Every Copilot comment that survives triage deducts.
+**Clean kill**: `gamemakerd` generates zero comments on the PR, bonus points. Every `gamemakerd` comment that survives triage deducts.
 
 ## The Eleven
 
@@ -123,7 +123,7 @@ The Victory Tour is the upstream submission itself. A season is not won until Fr
 
 ## The Gamemakers
 
-Scoring is automated. A GitHub Action parses merged PRs and Copilot comment counts, then regenerates `SCOREBOARD.md`. No manual bookkeeping. Disputes are settled by the boot log or not at all.
+Scoring is automated. `gamemakerd`, the Gamemakers' daemon, reviews every PR and comments on what it finds. A GitHub Action parses merged PRs and `gamemakerd` comment counts, then regenerates `SCOREBOARD.md`. No manual bookkeeping. Disputes are settled by the boot log or not at all.
 
 ## The Pressure Valve
 
