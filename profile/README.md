@@ -23,7 +23,7 @@ Hardware bring-up only works when claims are verifiable. These rules are not opt
 1. **Own the device.** Contributions are accepted only for boards the contributor physically has on their desk.
 2. **The device must be in proper working condition.** Dead boards produce dead code.
 3. **Untested code gets you benched.** Submitting code never run on the hardware means a ban from that board for the season ([Deaths](GAMES.md#deaths)). Other contributors double-check every submission.
-4. **AI review is assumed.** Every contributor is expected to use AI to review their code, double-check their assumptions, and polish their commit messages and replies. Use the tools.
+4. **AI review is assumed.** Every contributor is expected to use AI to review their code, double-check their assumptions, and polish their commit messages and replies. Use the tools. Full ruling in the [AI Policy](AI-POLICY.md).
 5. **`gamemakerd` runs on every PR.** The org's review bot comments on what it finds. The perfect score is **zero generated comments**. Clean PRs merge fast.
 6. **Real names only.** No hiding behind nicknames. Upstreaming to FreeBSD requires real names attached to real commits.
 7. **Provenance matters.** No copying GPL code, ever ([Foreign Powers](GAMES.md#foreign-powers)). Every line must be clean for FreeBSD. Code without provable origin does not go in.
