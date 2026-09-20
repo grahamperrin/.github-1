@@ -58,7 +58,7 @@ The world is the branch topology, and the branch topology is law.
 
 ## The Reaping
 
-Seasons are monthly, tracked as GitHub milestones. A tribute enters an arena by commenting on the arena issue with proof of hardware: a photo of the board and a serial capture of whatever it currently does. No hardware, no entry. [The Decree](README.md#the-decree)'s ownership rule is the gate.
+Seasons are monthly, tracked as GitHub milestones. A [tribute](GAMES.md#why-tribute) enters an arena by commenting on the arena issue with proof of hardware: a photo of the board and a serial capture of whatever it currently does. No hardware, no entry. [The Decree](README.md#the-decree)'s ownership rule is the gate.
 
 ## Foreign Powers
 
